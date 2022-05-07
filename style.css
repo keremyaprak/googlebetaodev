@@ -1,0 +1,81 @@
+.container {
+    width: 1000px;
+    margin: 0 auto 0;
+}
+
+.logo {
+    margin: 0 auto 0 auto;
+}
+
+*:not(input){
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    margin: 0 auto;
+}
+
+body div > *:not(button){
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#links {
+    width: 1650px;
+    margin: 0 auto 0 auto;
+    background-color: aqua;
+}
+
+.nav-left {
+    float: left;
+    width: 35%;
+    height: 76px;
+    background-color: #7EE5DA;
+    margin: 3px 0 0 0;
+}
+
+.nav-mid {
+    float: left;
+    width: 20%;
+    background-color: #70CCC2;
+    font-size: 13px;
+    margin: 3px 0 0 2px;
+    height: 76px;
+}
+
+.nav-right {
+    float: left;
+    width: 41%;
+    margin: 3px 0 0 2px;
+    background-color: #62B3AA;
+    font-size: 13px;
+    height: 76px;
+
+}
+
+.nav-right ul > span, input {
+    display: block;
+}
+
+.l1, .btn {
+    display: inline-block;
+}
+
+.mr {
+    margin: 0;
+}
+
+.mr-1 {
+    margin: 7px;
+}
+
+#ft {
+    position: relative;
+    width: 220px;
+    margin: 100px auto 100px auto;
+    font-size: 13px;
+}
